@@ -10,8 +10,8 @@ array.push(`I am ${i} strange loops.`);
 return array;
 }
 
-function whileLoop(array){
-  let countdown = 100;
+function whileLoop(n){
+  let countdown = n;
 
 while (countdown > 0) {
   console.log(--countdown);
