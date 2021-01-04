@@ -18,3 +18,21 @@ while (countdown > 0) {
 }
 return "done";
 }
+
+
+
+function doWhileLoop(num){
+  var=0;
+  function incrementVariable() {
+    i++
+    return i;
+  }
+  do {
+    console.log(i, "I run once regardless.");
+  }
+  while (incrementVariable() <= 9);
+}
+
+doWhileLoop(10);
+
+}
