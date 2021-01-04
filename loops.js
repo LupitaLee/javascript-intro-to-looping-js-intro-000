@@ -19,7 +19,7 @@ while (countdown > 0) {
 return "done";
 }
 
-function doWhileLoop(array) {
+function doWhileLoop() {
   let i = 0;
 
 function incrementVariable() {
