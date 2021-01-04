@@ -9,3 +9,11 @@ array.push(`I am ${i} strange loops.`);
 }
 return array;
 }
+
+function whileLoop(array){
+  let countdown = 100;
+
+while (countdown > 0) {
+  console.log(--countdown);
+}
+}
